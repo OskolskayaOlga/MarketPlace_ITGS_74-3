@@ -1,4 +1,44 @@
-.header-nav {
+a{
+    color: inherit;
     text-decoration: none;
-    display: inline-block;
+}
+
+li{
+    list-style: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+.header{
+    border-bottom: 1px solid #cacad6;
+}
+
+.cart{
+    width: 30px;
+    height: 30px;
+}
+
+.search{
+    width: 30px;
+    height: 30px;
+}
+
+.container{
+    max-width: 1220px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.nav {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.menu{
+    display: flex;
+    gap: 0 120px;
+    text-transform: uppercase;
 }
